@@ -1,0 +1,24 @@
+* System Identification of Active Suspension System
+
+This repository contains MATLAB examples to identify the model of an active suspension system using various system identification algorithms. The algorithms included are:
+- Recursive Least Squares
+- Extended Least Squares
+- Output Error Methods
+- Output Error with Filtered Observations
+- Output Error with Adaptive Filtering of the Observations
+- Output Error with Extended Prediction Model
+- Subspace Methods
+
+** About the Data
+Input and output data are sourced from a physical benchmark system discussed in the following articles:
+- Landau, Silva & Airimitoaie et al. (2013) Benchmark on adaptive regulation—rejection of unknown/time-varying multiple narrow band disturbances, European Journal of Control.
+- Abraham Castellanos Silva, Ioan D. Landau & Luc Dugard et al. (2016) Modified Direct Adaptive Regulation Scheme Applied to a Benchmark Problem, European Journal of Control.
+- Xu Chen & Masayoshi Tomizuka (2013) Selective Model Inversion and Adaptive Disturbance Observer for Time-Varying Vibration Rejection on an Active-Suspension Benchmark, European Journal of Control.
+
+
+** Instructions
+1. Clone this repository.
+2. Run systemID_sec2_blackbox.m and sysID_subspace.m to see results.
+
+Feel free to explore and adapt the provided examples to suit your system identification needs.
+To customize the methods for your specific needs, modify the data set and transfer function orders based on your unique hardware setup.
