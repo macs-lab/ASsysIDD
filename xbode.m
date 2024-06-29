@@ -10,7 +10,7 @@ function [freq] = xbode(...
 %
 % 
 %   Copyright (c) 2008-, 
-%   Xu Chen xchen@engr.uconn.edu
+%   Xu Chen 
 %   University of Connecticut
 % Initial Version: 2011-04-26
 

@@ -3,7 +3,7 @@ function xbodeplot(sys,linewidth,sw_linestyle,freq_Hz)
 %
 % 
 %   Copyright (c) 2008-, 
-%   Xu Chen xchen@engr.uconn.edu
+%   Xu Chen 
 %   University of Connecticut
 % 2011-04-26
 
